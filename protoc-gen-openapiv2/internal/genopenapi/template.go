@@ -474,6 +474,7 @@ func renderMessageAsDefinition(msg *descriptor.Message, reg *descriptor.Registry
 		}
 		if protoSchema.Title != "" {
 			schema.Title = protoSchema.Title
+			schema.Description = protoSchema.Title
 		}
 		if protoSchema.Description != "" {
 			schema.Description = protoSchema.Description
