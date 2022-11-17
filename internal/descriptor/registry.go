@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/0ostreamo0/grpc-gateway/v2/internal/codegenerator"
+	"github.com/0ostreamo0/grpc-gateway/v2/internal/descriptor/openapiconfig"
+	"github.com/0ostreamo0/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	"github.com/golang/glog"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/codegenerator"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/internal/descriptor/openapiconfig"
-	"github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2/options"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 	"google.golang.org/genproto/googleapis/api/annotations"
